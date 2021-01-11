@@ -1,0 +1,51 @@
+.item {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  align-items: center;
+  padding-right: -1%;
+  background-color: white;
+  margin: 0.5%;
+  cursor: pointer;
+}
+
+.task {
+  text-align: left;
+  font-size: 1.5vw;
+  padding: 1%;
+  padding-left: 3%;
+  word-break: break-all;
+}
+
+.delete-btn {
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  font-size: 1.4vw;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: rgb(187, 7, 7);
+  color: rgb(255, 255, 255);
+  transition: 0.2s ease;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: rgb(182, 182, 182);
+}
+
+@media (max-width: 1024px) {
+  .task {
+    font-size: 5vw;
+  }
+  .delete-btn {
+    font-size: 4vw;
+  }
+}

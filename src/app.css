@@ -1,0 +1,11 @@
+#task-container {
+  width: 40%;
+  margin: 2% auto;
+}
+
+@media (max-width: 1024px) {
+  #task-container {
+    width: 90%;
+    margin-top: 7%;
+  }
+}

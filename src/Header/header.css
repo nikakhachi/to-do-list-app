@@ -1,0 +1,11 @@
+h1 {
+  font-size: 4.5vw;
+  margin-top: 4%;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 15vw;
+  }
+}
